@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<!-- saved from url=(0056)https://mobirise.com/extensions/softwarem4/software-app/ -->
+<html class="desktop mbr-site-loaded"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!-- Site made with Mobirise Website Builder v5.3.4, https://mobirise.com -->
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Mobirise v5.3.4, mobirise.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="./img-2_files/logo.png" type="image/x-icon">
+  <meta name="description" content="New SoftwareM4 HTML Template - Download Now!">
+  
+  
+  <title>SoftwareM4 Theme Software App Demo</title>
+  <link rel="stylesheet" href="./img-2_files/mobirise2.css">
+  <link rel="stylesheet" href="./img-2_files/tether.min.css">
+  <link rel="stylesheet" href="./img-2_files/bootstrap.min.css">
+  <link rel="stylesheet" href="./img-2_files/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="./img-2_files/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="./img-2_files/style.css">
+  <link rel="stylesheet" href="./img-2_files/jquery.formstyler.css">
+  <link rel="stylesheet" href="./img-2_files/jquery.formstyler.theme.css">
+  <link rel="stylesheet" href="./img-2_files/jquery.datetimepicker.min.css">
+  <link rel="stylesheet" href="./img-2_files/styles.css">
+  <link rel="stylesheet" href="./img-2_files/style(1).css">
+  <link rel="stylesheet" href="./img-2_files/recaptcha.css">
+  <link rel="stylesheet" href="./img-2_files/css" as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM+Sans:400,400i,500,500i,700,700i&display=swap"></noscript>
+  <link rel="preload" as="style" href="./img-2_files/mbr-additional.css"><link rel="stylesheet" href="./img-2_files/mbr-additional.css" type="text/css">
+  
+  
+  
+  
+<style>.--savior-overlay-transform-reset {
+  transform: none !important;
+}
+.--savior-overlay-z-index-top {
+  z-index: 2147483643 !important;
+}
+.--savior-overlay-position-relative {
+  position: relative;
+}
+.--savior-overlay-position-static {
+  position: static !important;
+}
+.--savior-overlay-overflow-hidden {
+  overflow: hidden !important;
+}
+.--savior-overlay-overflow-x-visible {
+  overflow-x: visible !important;
+}
+.--savior-overlay-overflow-y-visible {
+  overflow-y: visible !important;
+}
+.--savior-overlay-z-index-reset {
+  z-index: auto !important;
+}
+.--savior-overlay-display-none {
+  display: none !important;
+}
+.--savior-overlay-clearfix {
+  clear: both;
+}
+.--savior-overlay-reset-filter {
+  filter: none !important;
+  backdrop-filter: none !important;
+}
+.--savior-tooltip-host {
+  z-index: 9999;
+  position: absolute;
+  top: 0;
+}
+/*Override css styles for Twitch.tv*/
+main.--savior-overlay-z-index-reset {
+  z-index: auto !important;
+}
+.modal__backdrop.--savior-overlay-z-index-reset {
+  position: static !important;
+}
+main.--savior-overlay-z-index-top {
+  z-index: auto !important;
+}
+main.--savior-overlay-z-index-top .channel-root__player-container + div,
+main.--savior-overlay-z-index-top .video-player-hosting-ui__container + div {
+  opacity: 0.1;
+}
+/*Dirty hack for facebook big video page e.g: https://www.facebook.com/abc/videos/...*/
+.--savior-backdrop {
+  position: fixed !important;
+  z-index: 2147483642 !important;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw !important;
+  background-color: rgba(0,0,0,0.9);
+}
+.--savior-overlay-twitter-video-player {
+  position: fixed;
+  width: 80%;
+  height: 80%;
+  top: 10%;
+  left: 10%;
+}
+.--savior-overlay-z-index-reset [class*="DivSideNavContainer"],
+.--savior-overlay-z-index-reset [class*="DivHeaderContainer"],
+.--savior-overlay-z-index-reset [class*="DivBottomContainer"],
+.--savior-overlay-z-index-reset [class*="DivCategoryListWrapper"],
+.--savior-overlay-z-index-reset [data-testid="sidebarColumn"],
+.--savior-overlay-z-index-reset header[role="banner"],
+.--savior-overlay-z-index-reset [data-testid="cellInnerDiv"]:not(.--savior-overlay-z-index-reset),
+.--savior-overlay-z-index-reset [aria-label="Home timeline"]>div:first-child,
+.--savior-overlay-z-index-reset [aria-label="Home timeline"]>div:nth-child(3) {
+  z-index: -1 !important;
+}
+.--savior-overlay-z-index-reset [data-testid="cellInnerDiv"] .--savior-backdrop+div {
+  z-index: 2147483643 !important;
+}
+.--savior-overlay-z-index-reset [data-testid="primaryColumn"]>[aria-label="Home timeline"] {
+  z-index: 0 !important;
+}
+.--savior-overlay-z-index-reset#mtLayer,
+.--savior-overlay-z-index-reset.media-layer {
+  z-index: 3000 !important;
+}
+.--savior-overlay-position-relative [class*="SecBar_secBar_"],
+.--savior-overlay-position-relative .woo-box-flex [class*="Frame_top_"] {
+  z-index: 0 !important;
+}
+.--savior-overlay-position-relative .vue-recycle-scroller__item-view:not(.--savior-overlay-z-index-reset),
+.--savior-overlay-position-relative .woo-panel-main[class*="BackTop_main_"],
+.--savior-overlay-position-relative [class*="Main_side_"] {
+  z-index: -1 !important;
+}
+/* Fix conflict css with zingmp3 */
+.zm-video-modal.--savior-overlay-z-index-reset {
+  position: absolute;
+}
+/* Dirty hack for xvideos99 */
+#page #main.--savior-overlay-z-index-reset {
+  z-index: auto !important;
+}
+/* Overlay for ok.ru */
+#vp_w.--savior-overlay-z-index-reset.media-layer.media-layer__video {
+  overflow-y: hidden;
+  z-index: 2147483643 !important;
+}
+/* Fix missing controller for tv.naver.com */
+.--savior-overlay-z-index-top.rmc_controller,
+.--savior-overlay-z-index-top.rmc_setting_intro,
+.--savior-overlay-z-index-top.rmc_highlight,
+.--savior-overlay-z-index-top.rmc_control_settings {
+  z-index: 2147483644 !important;
+}
+/* Dirty hack for douyi.com */
+.swiper-wrapper.--savior-overlay-z-index-reset .swiper-slide:not(.swiper-slide-active),
+.swiper-wrapper.--savior-overlay-transform-reset .swiper-slide:not(.swiper-slide-active) {
+  display: none;
+}
+.videoWrap + div > div {
+  pointer-events: unset;
+}
+/* Dirty hack for fpt.ai */
+.mfp-wrap.--savior-overlay-z-index-top {
+  position: relative;
+}
+.mfp-wrap.--savior-overlay-z-index-top .mfp-close {
+  display: none;
+}
+.mfp-wrap.--savior-overlay-z-index-top .mfp-content {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+section.--savior-overlay-z-index-reset>main[role="main"].--savior-overlay-z-index-reset + nav {
+  z-index: -1 !important;
+}
+section.--savior-overlay-z-index-reset>main[role="main"].--savior-overlay-z-index-reset section.--savior-overlay-z-index-reset div.--savior-overlay-z-index-reset ~ div {
+  position: relative;
+}
+div[class^="tiktok"].--savior-overlay-z-index-reset {
+  z-index: 2147483644 !important;
+}
+.--savior-lightoff-fix section:not(:has([class*="--savior-overlay-"])),
+.--savior-lightoff-fix section.section_video ~ section {
+  z-index: -1;
+  position: relative;
+}
+.--savior-lightoff-fix header,
+.--savior-lightoff-fix footer,
+.--savior-lightoff-fix .top-header,
+.--savior-lightoff-fix .swiper-container,
+.--savior-lightoff-fix #to_top,
+.--savior-lightoff-fix #button-adblock {
+  z-index: -1 !important;
+}
+@-moz-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+</style></head>
+<body><section id="top-1" style="display: none;"><a href="https://mobirise.in/">Mobirise Website Software</a> Mobirise v5.3.4</section>
+  
+  <section class="menu menu1 cid-st2egOCBWA" once="menu" id="menu01-0">
+    
+    <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
+        <div class="container-fluid">
+            <div class="navbar-brand">
+                <span class="navbar-logo">
+                    <a href="https://mobiri.se/">
+                        <img src="./img-2_files/logo.png" alt="Mobirise" style="height: 3rem;">
+                    </a>
+                </span>
+                <span class="navbar-caption-wrap"><a class="navbar-caption text-black display-5" href="https://mobiri.se/">SoftwareM4</a></span>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true">
+                    <li class="nav-item"><a class="nav-link link text-black display-7" href="https://mobirise.com/extensions/softwarem4/software-app/#" aria-expanded="false">
+                            Home</a></li>
+                    <li class="nav-item"><a class="nav-link link text-black display-7" href="https://mobirise.com/extensions/softwarem4/software-app/#" aria-expanded="false">
+                            About</a></li>
+                    <li class="nav-item"><a class="nav-link link text-black display-7" href="https://mobiri.se/">
+                            Services</a></li>
+                    <li class="nav-item"><a class="nav-link link text-black display-7" href="https://mobiri.se/">Contact</a>
+                    </li>
+                </ul>
+                <div class="icons-menu">
+                    <a class="iconfont-wrapper" href="https://mobiri.se/" target="_blank">
+                        <span class="p-2 mbr-iconfont socicon-facebook socicon"></span>
+                    </a>
+                    <a class="iconfont-wrapper" href="https://mobiri.se/" target="_blank">
+                        <span class="p-2 mbr-iconfont socicon-twitter socicon"></span>
+                    </a>
+                    <a class="iconfont-wrapper" href="https://mobiri.se/" target="_blank">
+                        <span class="p-2 mbr-iconfont socicon-instagram socicon"></span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </nav>
+</section>
+
+<section class="header1 cid-st2ehtS7Pp" id="header01-1">
+    
+    <div class="mbr-overlay" style="opacity: 0.7; background-color: rgb(0, 0, 0);"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-6 align-left">
+                <h2 class="mbr-section-subtitle mbr-white mbr-fonts-style mb-3 display-7">
+                    <strong>Developer Company</strong>
+                </h2>
+                <h1 class="mbr-section-title mbr-white mbr-fonts-style mb-4 display-2"><strong>Software App</strong></h1>
+                <p class="mbr-text mbr-semibold mbr-fonts-style mb-4 display-7">Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit. Accumsan porttitor egestas&nbsp;fermentum nulla.</p>
+                <div class="mbr-section-btn"><a class="btn btn-lg btn-primary display-4" href="https://mobiri.se/">Our
+                        Services</a> <a class="btn btn-lg btn-success-outline display-4" href="https://mobiri.se/">Learn More</a></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="features9 cid-st2NivSHPO" id="features09-2">
+    
+    <div class="container">
+        <div class="row justify-content-end">
+            <div class="col-12 col-md-12 md-pb col-lg-6 md-pb image-wrapper">
+                <img src="./img-2_files/features1.jpg" alt="Mobirise">
+            </div>
+            <div class="counter-container m-auto col-12 col-md-12 col-lg-6">
+                <h3 class="mbr-section-subtitle align-left mbr-fonts-style mb-3 display-7"><strong>Core
+                        Features</strong></h3>
+                <h2 class="mbr-section-title align-left mbr-fonts-style mb-4 display-1"><strong>Best Business Software Solution</strong></h2>
+                <div class="row m-0">
+                    <div class="icon-wrapper">
+                        <span class="mbr-iconfont icon1 m-auto mobi-mbri-change-style mobi-mbri"></span>
+                        <p class="mbr-icon-text align-center mbr-fonts-style m-0 p-0 display-4"><strong>Design</strong></p>
+                    </div>
+                    <div class="icon-wrapper">
+                        <span class="mbr-iconfont icon1 m-auto mobi-mbri-touch mobi-mbri"></span>
+                        <p class="mbr-icon-text align-center mbr-fonts-style m-0 p-0 display-4"><strong>Usage</strong></p>
+                    </div>
+                    <div class="icon-wrapper">
+                        <span class="mbr-iconfont icon1 m-auto mobi-mbri-users mobi-mbri"></span>
+                        <p class="mbr-icon-text align-center mbr-fonts-style m-0 p-0 display-4"><strong>Testing</strong><br></p>
+                    </div>
+                </div>
+                <p class="mbr-text align-left mbr-fonts-style mt-4 display-7">Lorem ipsum dolor sit
+                    amet, consectetur adipiscing
+                    elit. Accumsan porttitor egestas&nbsp;fermentum nulla.</p>
+
+                <div class="mbr-section-btn mt-2 align-left"><a class="btn btn-lg btn-primary display-4" href="https://mobiri.se/">Read More</a></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="article3 cid-st2O9G5Yjw" id="content03-e">
+    
+    <div class="container">
+        <div class="row justify-content-end">
+
+            <div class="counter-container col-12 col-md-12 m-auto col-lg-8">
+                <div class="card">
+                    <h2 class="mbr-section-title align-left mbr-fonts-style mb-3 display-7"><strong>App Download</strong></h2>
+                    
+                    <h3 class="mbr-section-subtitle align-left mbr-fonts-style mb-3 display-1">
+                        <strong>You can control direct from your mobile.</strong><strong><br></strong></h3>
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-4 image-wrapper align-right">
+                <img src="./img-2_files/features2.jpg" alt="Mobirise">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="article1 cid-st2OjENhSq" id="content01-f">
+    
+    <div class="container">
+        <div class="row justify-content-end">
+            <div class="counter-container m-auto col-12 col-md-12 col-lg-12">
+                
+                <h2 class="mbr-section-title align-left mbr-fonts-style mb-3 display-5"><strong>Our Goal</strong></h2>
+                <p class="mbr-text align-left mbr-fonts-style mb-4 display-7">Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit. Curabitur id libero vitae felis ullamcorper pharetra a non tortor. Etiam cursus ex id porta
+                    viverra. In hac habitasse platea dictumst. Etiam auctor, erat ut interdum semper, elit dui hendrerit
+                    turpis, quis eleifend arcu nulla vitae diam. Sed efficitur porttitor justo, eget mollis sem interdum
+                    sed. Quisque ornare et risus id bibendum. Donec faucibus sollicitudin rhoncus. Sed in porttitor sem.
+                    Quisque vitae mollis odio. Aenean consectetur placerat nibh, quis elementum orci fermentum vitae.
+                </p>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="mbr-list mbr-fonts-style display-7">
+                            <ul>
+                                <li>App Design &amp; Research</li>
+                                <li>Development &amp; Testing</li>
+                            </ul>
+                            <ul>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="mbr-list mbr-fonts-style display-7">
+                            <ul>
+                                <li>Development &amp; Testing</li>
+                                <li>App Design &amp; Research</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="mbr-list mbr-fonts-style display-7">
+                            <ul>
+                                <li>App Design &amp; Research</li>
+                                <li>Development &amp; Testing</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="features14 cid-st2NJmhY8J" id="features014-9">
+    
+    
+    <div class="container">
+        <div class="mbr-section-head mb-5">
+            
+            <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-1"><strong>Core Features</strong></h4>
+        </div>
+        <div class="row justify-content-center mt-4">
+            <div class="item features-image сol-12 col-md-6 col-lg-4">
+                <div class="item-wrapper">
+                    <div class="item-img">
+                        <img src="./img-2_files/features1.jpg">
+                        <span class="mbr-iconfont mobi-mbri-right mobi-mbri"></span>
+                    </div>
+                    <div class="item-content">
+                        <h6 class="item-subtitle mbr-fonts-style mb-1 display-4"><strong>Software, Interface</strong></h6>
+                        <h5 class="item-title mbr-fonts-style display-5"><strong>Development</strong></h5>
+
+                    </div>
+                </div>
+            </div>
+            <div class="item features-image сol-12 col-md-6 col-lg-4">
+                <div class="item-wrapper">
+                    <div class="item-img">
+                        <img src="./img-2_files/features2.jpg">
+                        <span class="mbr-iconfont mobi-mbri-right mobi-mbri"></span>
+                    </div>
+                    <div class="item-content">
+                        <h6 class="item-subtitle mbr-fonts-style mb-1 display-4"><strong>Software, Design</strong></h6>
+                        <h5 class="item-title mbr-fonts-style display-5"><strong>Design</strong></h5>
+
+                    </div>
+                </div>
+            </div>
+            <div class="item features-image сol-12 col-md-6 col-lg-4">
+                <div class="item-wrapper">
+                    <div class="item-img">
+                        <img src="./img-2_files/features3.jpg">
+                        <span class="mbr-iconfont mobi-mbri-right mobi-mbri"></span>
+                    </div>
+                    <div class="item-content">
+                        <h6 class="item-subtitle mbr-fonts-style mb-1 display-4"><strong>Software, Interface</strong></h6>
+                        <h5 class="item-title mbr-fonts-style display-5"><strong>Optimization</strong></h5>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</section>
+
+<section class="features7 cid-st2NLdMP7a" id="features07-a">
+    
+    
+    <div class="container">
+        <div class="row">
+            <div class="card-wrapper">
+                <div class="col-lg-7  col-md-12 col-12 m-auto align-left">
+                    <h2 class="mbr-section-subtitle mbr-white mbr-fonts-style mb-3 display-7">
+                        <strong>Careers</strong>
+                    </h2>
+                    <h1 class="mbr-section-title mbr-white mbr-fonts-style mb-4 display-1"><strong>Join our team to create best digital
+                            solutions.</strong></h1>
+                </div>
+                <div class="col-lg-5 col-md-12 col-12 align-right m-auto">
+                    <div class="button mb-3">
+                        <div class="wrapper mbr-flex">
+                            <span class="mbr-iconfont mobi-mbri-setting mobi-mbri"></span>
+                            <p class="mbr-text mbr-regular mbr-fonts-style display-7">Development</p>
+                        </div>
+                        <span class="mbr-iconfont mobi-mbri-right mobi-mbri"></span>
+                    </div>
+                    <div class="button mb-3">
+                        <div class="wrapper mbr-flex">
+                            <span class="mbr-iconfont mobi-mbri-change-style mobi-mbri"></span>
+                            <p class="mbr-text mbr-regular mbr-fonts-style display-7">Design</p>
+                        </div>
+                        <span class="mbr-iconfont mobi-mbri-right mobi-mbri"></span>
+
+                    </div>
+                    <div class="button mb-3">
+                        <div class="wrapper mbr-flex">
+                            <span class="mbr-iconfont mobi-mbri-delivery mobi-mbri"></span>
+                            <p class="mbr-text mbr-regular mbr-fonts-style display-7">Optimization</p>
+                        </div>
+                        <span class="mbr-iconfont mobi-mbri-right mobi-mbri"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="team1 cid-st2NXDL3kh" id="team01-d">
+    
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 mb-5">
+                <p class="mbr-section-subtitle mbr-fonts-style align-center mb-2 display-7"><strong>
+                        Experts
+                    </strong></p>
+                <h3 class="mbr-section-title mbr-fonts-style align-center mb-2 display-1"><strong>Our Team Members</strong></h3>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+                <div class="card-wrap">
+                    <div class="image-wrap">
+                        <img src="./img-2_files/team1.jpg">
+                    </div>
+                    <div class="content-wrap">
+                        <h5 class="mbr-section-title card-title mbr-fonts-style align-center m-0 display-5">
+                            <strong>John Smith</strong>
+                        </h5>
+                        <h6 class="mbr-role mbr-fonts-style align-center mb-3 display-4">
+                            Programmer
+                        </h6>
+                        
+                        <div class="social-row display-7">
+                            <div class="soc-item">
+                                <a href="https://www.facebook.com/Mobirise/" target="_blank">
+                                    <span class="mbr-iconfont socicon socicon-facebook"></span>
+                                </a>
+                            </div>
+                            <div class="soc-item">
+                                <a href="https://twitter.com/mobirise" target="_blank">
+                                    <span class="mbr-iconfont socicon socicon-twitter"></span>
+                                </a>
+                            </div>
+                            <div class="soc-item">
+                                <a href="https://instagram.com/mobirise" target="_blank">
+                                    <span class="mbr-iconfont socicon socicon-instagram"></span>
+                                </a>
+                            </div>
+                            
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+                <div class="card-wrap">
+                    <div class="image-wrap">
+                        <img src="./img-2_files/team2.jpg">
+                    </div>
+                    <div class="content-wrap">
+                        <h5 class="mbr-section-title card-title mbr-fonts-style align-center m-0 display-5">
+                            <strong>Sarah Palmer</strong>
+                        </h5>
+                        <h6 class="mbr-role mbr-fonts-style align-center mb-3 display-4">
+                            Manager
+                        </h6>
+                        
+                        <div class="social-row display-7">
+                            <div class="soc-item">
+                                <a href="https://www.facebook.com/Mobirise/" target="_blank">
+                                    <span class="mbr-iconfont socicon socicon-facebook"></span>
+                                </a>
+                            </div>
+                            <div class="soc-item">
+                                <a href="https://twitter.com/mobirise" target="_blank">
+                                    <span class="mbr-iconfont socicon socicon-twitter"></span>
+                                </a>
+                            </div>
+                            <div class="soc-item">
+                                <a href="https://instagram.com/mobirise" target="_blank">
+                                    <span class="mbr-iconfont socicon socicon-instagram"></span>
+                                </a>
+                            </div>
+                            
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+                <div class="card-wrap">
+                    <div class="image-wrap">
+                        <img src="./img-2_files/team3.jpg">
+                    </div>
+                    <div class="content-wrap">
+                        <h5 class="mbr-section-title card-title mbr-fonts-style align-center m-0 display-5">
+                            <strong>Adam Swift</strong>
+                        </h5>
+                        <h6 class="mbr-role mbr-fonts-style align-center mb-3 display-4">
+                            Analyst
+                        </h6>
+                        
+                        <div class="social-row display-7">
+                            <div class="soc-item">
+                                <a href="https://www.facebook.com/Mobirise/" target="_blank">
+                                    <span class="mbr-iconfont socicon socicon-facebook"></span>
+                                </a>
+                            </div>
+                            <div class="soc-item">
+                                <a href="https://twitter.com/mobirise" target="_blank">
+                                    <span class="mbr-iconfont socicon socicon-twitter"></span>
+                                </a>
+                            </div>
+                            <div class="soc-item">
+                                <a href="https://instagram.com/mobirise" target="_blank">
+                                    <span class="mbr-iconfont socicon socicon-instagram"></span>
+                                </a>
+                            </div>
+                            
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+                <div class="card-wrap">
+                    <div class="image-wrap">
+                        <img src="./img-2_files/team4.jpg">
+                    </div>
+                    <div class="content-wrap">
+                        <h5 class="mbr-section-title card-title mbr-fonts-style align-center m-0 display-5">
+                            <strong>Helen Smith</strong>
+                        </h5>
+                        <h6 class="mbr-role mbr-fonts-style align-center mb-3 display-4">
+                            Designer
+                        </h6>
+                        
+                        <div class="social-row display-7">
+                            <div class="soc-item">
+                                <a href="https://www.facebook.com/Mobirise/" target="_blank">
+                                    <span class="mbr-iconfont socicon socicon-facebook"></span>
+                                </a>
+                            </div>
+                            <div class="soc-item">
+                                <a href="https://twitter.com/mobirise" target="_blank">
+                                    <span class="mbr-iconfont socicon socicon-twitter"></span>
+                                </a>
+                            </div>
+                            <div class="soc-item">
+                                <a href="https://instagram.com/mobirise" target="_blank">
+                                    <span class="mbr-iconfont socicon socicon-instagram"></span>
+                                </a>
+                            </div>
+                            
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="image2 cid-st2NDFXEuF" id="image02-8">
+    
+    
+    <div class="container">
+        <div class="row m-auto">
+            <div class="col-lg-12 p-0">
+                <img src="./img-2_files/background3.jpg" alt="Mobirise">
+            </div>
+            <div class="wrapper">
+                <div class="col-12 col-md-6 col-lg-2 align-left">
+                    <h3 class="mbr-section-subtitle mbr-white mbr-fonts-style display-7">
+                        Cleints
+                    </h3>
+                    <h2 class="mbr-section-title mbr-white mbr-fonts-style display-7"><strong>Art Museum</strong></h2>
+                </div>
+                <div class="col-12 col-md-6 col-lg-2 align-left">
+                    <h3 class="mbr-section-subtitle mbr-white mbr-fonts-style display-7">
+                        Services
+                    </h3>
+                    <h2 class="mbr-section-title mbr-white mbr-fonts-style display-7"><strong>Website</strong></h2>
+                </div>
+                <div class="col-12 col-md-6 col-lg-2 align-left">
+                    <h3 class="mbr-section-subtitle mbr-white mbr-fonts-style display-7">
+                        Durations
+                    </h3>
+                    <h2 class="mbr-section-title mbr-white mbr-fonts-style display-7"><strong>10 - 30 Days</strong></h2>
+                </div>
+                <div class="col-12 col-md-6 col-lg-2 align-left">
+                    <h3 class="mbr-section-subtitle mbr-white mbr-fonts-style display-7">
+                        Tools
+                    </h3>
+                    <h2 class="mbr-section-title mbr-white mbr-fonts-style display-7"><strong>Figma</strong></h2>
+                </div>
+                <div class="col-12 col-md-12 col-lg-2 btn-col align-right">
+
+                    <div class="mbr-section-btn"><a class="btn btn-lg btn-black display-4" href="https://mobiri.se/">Preview</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="testimonials2 cid-st2NuRi8xg" id="testimonials02-6">
+    
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 mb-5">
+                <p class="mbr-section-subtitle mbr-fonts-style align-left mb-2 display-7"><strong>Testimonials</strong><br></p>
+                <h3 class="mbr-section-title mbr-fonts-style align-left mb-2 display-1"><strong>Our Client Feedbacks</strong></h3>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                <div class="card-wrap">
+                    <p class="card-text mbr-fonts-style pb-4 align-left display-5"><em>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae curabitur libero felis
+                            ullamcorper.</em></p>
+                    <div class="mbr-flex">
+                        <span class="mbr-iconfont mobi-mbri-quote-right mobi-mbri"></span>
+                        <div class="image-wrap">
+                            <img src="./img-2_files/team1.jpg">
+                        </div>
+                        <div class="content-wrap">
+                            <h5 class="mbr-section-title card-title mbr-fonts-style m-0 align-left display-5">
+                                <strong>John Smith</strong>
+                            </h5>
+                            <h6 class="mbr-role mbr-fonts-style m-0 align-left display-4">
+                                Programmer
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                <div class="card-wrap">
+                    <p class="card-text mbr-fonts-style pb-4 align-left display-5"><em>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae curabitur libero felis
+                            ullamcorper.</em></p>
+                    <div class="mbr-flex">
+                        <span class="mbr-iconfont mobi-mbri-quote-right mobi-mbri"></span>
+                        <div class="image-wrap">
+                            <img src="./img-2_files/team2.jpg">
+                        </div>
+                        <div class="content-wrap">
+                            <h5 class="mbr-section-title card-title mbr-fonts-style m-0 align-left display-5"><strong>Sarah Palmer</strong></h5>
+                            <h6 class="mbr-role mbr-fonts-style m-0 align-left display-4">
+                                Manager
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                <div class="card-wrap">
+                    <p class="card-text mbr-fonts-style pb-4 align-left display-5"><em>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae curabitur libero felis
+                            ullamcorper.</em></p>
+                    <div class="mbr-flex">
+                        <span class="mbr-iconfont mobi-mbri-quote-right mobi-mbri"></span>
+                        <div class="image-wrap">
+                            <img src="./img-2_files/team3.jpg">
+                        </div>
+                        <div class="content-wrap">
+                            <h5 class="mbr-section-title card-title mbr-fonts-style m-0 align-left display-5"><strong>Adam Swift</strong></h5>
+                            <h6 class="mbr-role mbr-fonts-style m-0 align-left display-4">
+                                Designer
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="video1 cid-st2OE5p5Jz" id="video01-g">
+    
+    
+    <div class="align-center container">
+        <div class="mbr-section-head">
+            <h4 class="mbr-section-title mbr-fonts-style mb-5 display-2">
+                <strong>View in Action</strong>
+            </h4>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-">
+                <div class="box">
+                    <div class="mbr-media show-modal align-center" data-modal=".modalWindow">
+                        <div class="icon-wrap">
+                            <a class="" href="https://mobirise.com/extensions/softwarem4/software-app/#"><span class="mbr-iconfont mobi-mbri-play mobi-mbri"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="modalWindow" style="display: none;">
+            <div class="modalWindow-container">
+                <div class="modalWindow-video-container">
+                    <div class="modalWindow-video">
+                        <iframe width="100%" height="100%" frameborder="0" allowfullscreen="1" src="./img-2_files/VA8PzkQa8d8.html"></iframe>
+                    </div>
+                    <a class="close" role="button" data-dismiss="modal">
+                        <span aria-hidden="true" class="mbr-iconfont mobi-mbri-close mobi-mbri closeModal"></span>
+                        <span class="sr-only">Close</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="form cid-st2NOe6GUd" id="form02-b">
+    
+    
+    <div class="container">
+        <div class="row">
+            <div class="wrapper">
+                <div class="col-lg-12 align-left">
+                    <h4 class="mbr-section-subtitle mb-2 mbr-fonts-style display-7"><strong>Estimate For Projects</strong></h4>
+                    <h3 class="mbr-section-title mb-5 mbr-fonts-style display-2">
+                        <strong>Share Work Details</strong></h3>
+                </div>
+
+                <div class="col-lg-12 m-auto mbr-form" data-form-type="formoid">
+                    <!--Formbuilder Form-->
+                    <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="BO+jzvuvAl2b5erA+3I0tdmvR+NPWUyUzDOwzypoO4bOb7YLZ9ddLYb/ap4U9utKIfC13mygb+ZIi1YRBqTaUFwK7wxc3EIz3wm8u8V+33nqCvBiY/dbkjjDIVRghz3e.mWOHqp2/rrUHdDDOjzwM/yGIWrD3ZAp3cdPvuEAAKUnTnwE0uLxI97vZsN8xgGyYp4in4rfQa5K6/cBx+EJU/smEEmr9VK+xjGWlJ/m2xMisq1jjL7YHml2DsE22MWuE">
+                        <div class="form-row">
+                            <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling
+                                out the form!</div>
+                            <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">Oops...! some
+                                problem!</div>
+                        </div>
+                        <div class="dragArea form-row">
+                            <div class="col-lg-4 col-md-12 col-sm-12 form-group" data-for="name">
+                                <input type="text" name="name" placeholder="Full name" data-form-field="name" class="form-control display-7" value="" id="name-form02-b">
+                            </div>
+                            <div class="col-lg-4 col-md-12 col-sm-12 form-group" data-for="email" style="">
+                                <input type="email" name="email" placeholder="Email adress" data-form-field="email" class="form-control display-7" value="" id="email-form02-b">
+                            </div>
+                            <div class="col-lg-4 col-md-12 col-sm-12 form-group" data-for="subject">
+                                <input type="text" name="subject" placeholder="Subject" data-form-field="subject" class="form-control display-7" value="" id="subject-form02-b">
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 form-group" data-for="textarea" style="">
+                                <textarea name="textarea" placeholder="Work Details" data-form-field="textarea" class="form-control display-7" id="textarea-form02-b"></textarea>
+                            </div>
+                            <div class="col-auto align-right">
+                                <button type="submit" class="btn btn-lg btn-secondary display-7">Subscribe Now</button>
+                            </div>
+                        </div>
+                    </form>
+                    <!--Formbuilder Form-->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="map1 cid-st2NPmDNW0" id="map01-c">
+    
+    
+    <div>
+        
+        <div class="google-map"><iframe frameborder="0" style="border:0" src="./img-2_files/place.html" allowfullscreen=""></iframe></div>
+    </div>
+</section>
+
+<section class="footer1 cid-st2NzQz2ks" once="footers" id="footer01-7">
+    
+    
+
+    <div class="container">
+        <div class="media-container-row align-center mbr-white">
+            <div class="col-12">
+                <p class="mbr-text mb-0 mbr-fonts-style display-7">
+                    © Copyright 2025 Mobirise - All Rights Reserved
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script src="./img-2_files/jquery.min.js.download"></script>
+  <script src="./img-2_files/popper.min.js.download"></script>
+  <script src="./img-2_files/tether.min.js.download"></script>
+  <script src="./img-2_files/bootstrap.min.js.download"></script>
+  <script src="./img-2_files/smooth-scroll.js.download"></script>
+  <script src="./img-2_files/nav-dropdown.js.download"></script>
+  <script src="./img-2_files/navbar-dropdown.js.download"></script>
+  <script src="./img-2_files/jquery.touch-swipe.min.js.download"></script>
+  <script src="./img-2_files/vimeo_player.js.download"></script>
+  <script src="./img-2_files/jquery.formstyler.js.download"></script>
+  <script src="./img-2_files/jquery.formstyler.min.js.download"></script>
+  <script src="./img-2_files/jquery.datetimepicker.full.js.download"></script>
+  <script src="./img-2_files/script.js.download"></script>
+  <script src="./img-2_files/formoid.min.js.download"></script>
+  
+  
+  
+
+</body><div style="position: absolute; top: 0px; z-index: 2147483647; display: block !important; overflow: unset;"><template shadowrootmode="open"><style>@import "chrome-extension://jdfkmiabjpfjacifcmihfdjhpnjpiick/css/content-script.css";
+</style><div class="body"><div class="turn-lights-overlay"></div><toasts id="toasts-container"></toasts></div></template></div><div class="corom-element" en2vi-version="3" style="position: absolute; top: 0px; left: 0px; right: 0px; height: 0px; margin: 0px; text-align: left; z-index: 2147483647; pointer-events: none; border: none;"><template shadowrootmode="open"><style>@import "chrome-extension://gfgbmghkdjckppeomloefmbphdfmokgd/css/style.css";</style> </template></div></html>

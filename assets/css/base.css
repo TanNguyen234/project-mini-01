@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+/* ::-webkit-scrollbar {
+    height: 0;
+    display: none;
+} */
+
+:root {
+   --color-one: #14191E;
+   --color-text: #777777;
+   --color-background: #31363B;
+}
+
+.container-no-limit {
+    width: 100%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.container-limit {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+    color: var(--color-text);
+    overflow-x: hidden;
+}
+
+html {
+    background-color: #EFEFEF;
+}
+
+a:hover, a {
+    text-decoration: none;
+}
+
+.button {
+    width: 200px;
+    height: 70px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #1B2026;
+    border: 0;
+}
+
+@media  screen and (max-width: 1200px) {
+    .container-limit {
+        max-width: 960px;
+    }
+}
+
+@media  screen and (max-width: 992px) {
+    .container-limit {
+        max-width: 720px;
+    }
+}
+
+@media  screen and (max-width: 768px) {
+    .container-limit {
+        max-width: 540px;
+    }
+}
+
+@media  screen and (max-width: 576px) {
+    .container-limit {
+        max-width: 100%;
+        /* padding-left: 15px;
+        padding-right: 15px; */
+    }
+}
