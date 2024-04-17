@@ -213,6 +213,7 @@
 .section-two .button-one {
     background-color: #F7D9C4;
     color: var(--color-one);
+    margin-right: 20px;
 }
 
 .section-two .button-one:hover {
@@ -222,7 +223,6 @@
 
 .section-two .button-two {
     color: #fff;
-    margin-left: 20px;
     border: 2px solid var(--color-text);
     background: transparent;
 }
@@ -248,7 +248,26 @@
         align-items: center;
         flex-wrap: wrap;
     }
+}
 
+@media (max-width: 576px) {
+    .section-two .inner-register {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
+
+@media (max-width: 419px) {
+    .section-two .inner-register {
+        justify-content: center;
+    }
+
+    .section-two .inner-register .button:last-child {
+        margin-top: 20px;
+        margin-right: 20px;
+    }
 }
 
 
