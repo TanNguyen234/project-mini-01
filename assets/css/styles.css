@@ -165,6 +165,13 @@
         font-size: 22px;
     }
 }
+
+@media  (max-width: 370px){
+    .section-two .inner-title,
+    .section-two .inner-head{
+        text-align: center;
+    }
+}
 /* end section one */
 
 /* section two */
@@ -267,6 +274,10 @@
     .section-two .inner-register .button:last-child {
         margin-top: 20px;
         margin-right: 20px;
+    }
+
+    .section-two .inner-desc {
+        text-align: center;
     }
 }
 
@@ -377,6 +388,7 @@
 
     .section-three .inner-content .inner-icon {
         flex-wrap: wrap;
+        justify-content: center;
     }
 
     .section-three .inner-content .inner-icon .inner-box:last-child {
@@ -428,6 +440,29 @@
 @media (max-width: 575px) {
     .section-three .inner-content .inner-icon .inner-box {
        margin: 2px;
+    }
+}
+
+@media (max-width: 474px) {
+    .section-three .inner-icon .inner-box:last-child {
+        margin-top: 10px;
+    }
+    .section-three .inner-content .inner-icon .inner-box:last-child {
+        margin-top: 10px;
+    }
+    .section-three .inner-content .inner-desc {
+        text-align: center;
+     }
+}
+
+@media (max-width: 390px) {
+    .section-three .inner-content .inner-head {
+        margin-top: 0;
+        padding-top: 0;
+        padding-bottom: 30px;
+    }
+    .section-three .inner-content .inner-title {
+        font-size: 58px;
     }
 }
 /*end section three */
@@ -517,6 +552,12 @@
 @media (max-width: 576px){
     .section-three .inner-content .inner-icon .inner-box:nth-child(2) {
         margin: 0 10px;
+    }
+
+    .section-three .inner-wrap-1 .inner-image img { 
+        width: 100%;
+        margin-top: 50px;
+        right: 0;
     }
 }
 /* end section three sub*/
@@ -1001,6 +1042,16 @@
         right: 32%;
     }
 }
+
+@media (max-width: 470px) {
+    .section-seven .inner-content .inner-box:nth-child(2) img, .section-seven .inner-content .inner-box:nth-child(2) .inner-name {
+        right: 28%;
+    }
+
+    section-seven .inner-content .inner-box .sub-title {
+        right: 43%;
+    }
+}
 /* end section seven */
 /* section eight */
 .section-eight {
@@ -1367,10 +1418,28 @@
     }
     
 }
+
+@media (max-width: 567px) {
+    .section-eleven .button-three {
+       border-radius: 5px;
+       left: calc(70% - 200px);
+    }
+
+}
 /* end section eleven */
+
+/* section twelve */
+.section-twelve {
+    margin-top: 30px;
+}
+
+.section-twelve iframe {
+    width: 100%;
+    height: 200px;
+}
+/* end section twelve */
 /* footer */
 .section-thirteen {
-    margin-top: 30px;
     background-color: var(--color-background);
     padding: 40px 0;
 }
