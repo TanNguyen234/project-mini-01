@@ -401,6 +401,11 @@
         flex-wrap: wrap;
     }
 
+    .section-three .inner-content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
     .section-three .inner-image {
         width: 100%;
     }
@@ -1422,7 +1427,7 @@
 @media (max-width: 567px) {
     .section-eleven .button-three {
        border-radius: 5px;
-       left: calc(70% - 200px);
+       left: calc(70% - 180px);
     }
 
 }
